@@ -1,0 +1,161 @@
+body{
+	font-family: "Consolas";
+}
+h1{
+	font-size: 90px;
+	letter-spacing: -4px;
+	word-spacing: -18px;
+	font-weight: normal;
+	font-stretch: expanded;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+p.first{
+	font-size: 45px;
+	margin-top: 0px;
+}
+p.second{
+	margin-bottom: 8px;
+}
+ul{
+	margin: 0;
+}
+li{
+    margin: 10px;
+	margin-left: -25px;	
+}
+.wrap {
+	width: 840px;
+	height: 910px;
+	margin-left: 60px; 
+	float: left;
+}
+.content {
+	width: 400px;
+	float: left;
+	margin: 5px;
+}
+.explanation {
+	width: 320px;
+	float: right;
+	margin: 5px;
+	margin-right: 100px;
+	line-height: 25px;
+}
+.buffer{
+	clear: both;
+	height: 20px;
+}
+.meeting {
+	clear: both;
+}
+.canvas {
+	position:absolute;
+	top: 910px;
+	clear: both;
+	width: 900px;
+	height: 310px;
+	overflow: hidden;
+}
+#square2 {
+	position: absolute;
+    width: 140px;
+    height: 150px;
+	top: 140px;
+	left: 205px;
+    background: #000000;
+}
+#circle {
+	position: absolute;
+    width: 270px;
+    height: 270px;
+    background: #FFCC00;
+    -moz-border-radius: 135px;
+    -webkit-border-radius: 135px;
+    border-radius: 135px;
+	top: 10px;
+	left: 345px;
+}
+#triangle {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 60px solid transparent;
+	border-left: 110px solid #cc0000;
+	border-bottom: 60px solid transparent;
+	top: 20px;
+	left: 250px;
+}
+#square1 {
+	position: absolute;
+    width: 160px;
+    height: 175px;
+    background: #FFCC00;	
+    transform: rotate(-58deg);
+	margin: 0;
+    top: 80px;
+    left: -55px;
+}
+#rectangle {
+	position: absolute;
+    width: 60px;
+    height: 173px;
+    background: #FFCC00;
+    transform: rotate(-57deg);
+	top:135px;
+	left:825px;
+}
+#pentagon {
+    position: absolute;
+    width: 94px;
+    border-width: 80px 38px 0;
+    border-style: solid;
+    border-color: #cc0000 transparent;
+	transform: rotate(190deg);
+	top: 133px;
+	left: 611px;
+}
+#pentagon:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -159px;
+    left: -38px;
+    border-width: 0 85px 80px;
+    border-style: solid;
+    border-color: transparent transparent #cc0000;
+}
+#hexagon {
+	width: 100px;
+	height: 65px;
+	background: #cc0000;
+	position: absolute;
+	top: 210px;
+	left: 98px;
+	transform: rotate(100deg);
+}
+#hexagon:before {
+	content: "";
+	position: absolute;
+	top: -25px; 
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 26px solid #cc0000;
+
+}
+#hexagon:after {
+	content: "";
+	position: absolute;
+	bottom: -25px; 
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 26px solid #cc0000;
+
+}
